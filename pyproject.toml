@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "insta-django-server"
+version = "0.1.0"
+description = ""
+authors = ["sam101321 <sam101321@naver.com>"]
+readme = "README.md"
+packages = [{include = "insta_django_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
